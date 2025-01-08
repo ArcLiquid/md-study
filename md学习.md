@@ -61,8 +61,8 @@
 4. 图片
     ![这是爱尔奎特](https://img.nga.178.com/attachments/mon_202208/01/f0Q0-ftf5K23T3cSkz-kz.jpg)
 5. 插入代码
-        /需要缩进八个空格/
-        print("CIAOLLO~~")
+        /需要缩进八个空格/  
+        print("CIAOLLO~~")  
         exit()
 6. 无
 
@@ -73,39 +73,39 @@
 3. 代码块
 
     /缩进四个空格/
-    import turtle       #导入turtle模块
-    p = turtle.Turtle()   #创建海龟对象
-    p.color("red")      #设置绘制时画笔的颜色
-    p.pensize(3)       #定义绘制时画笔的线条宽度
-    turtle.speed(1)     #定义绘图的速度（“slowest”或者1）
-    p.goto(0,0)        #移动海龟到坐标原点(0,0)
-    p.forward(200)     #向前移动100
-    p.right(90)        #向右旋转90度
-    p.forward(100)     #向前移动100
-    p.right(90)        #向右旋转90度
-    p.forward(200)     #向前移动100
-    p.right(90)        #向右旋转90度
-    p.forward(150)     #向前移动100
-    p.right(90)#向右旋转90度
-    p.forward(40)
-    p.left(90)
-    p.forward(40)
-    p.right(90)
-    p.forward(40)
-    p.left(90)
-    p.forward(60)
-    p.right(90)
-    p.forward(40)
-    p.right(90)
-    p.forward(60)
-    p.left(90)
-    p.forward(40)
-    p.right(90)
-    p.forward(40)
-    p.left(90)
-    p.forward(40)
-    p.right(90)
-    p.forward(50)
+    import turtle       #导入turtle模块  
+    p = turtle.Turtle()   #创建海龟对象  
+    p.color("red")      #设置绘制时画笔的颜色  
+    p.pensize(3)       #定义绘制时画笔的线条宽度  
+    turtle.speed(1)     #定义绘图的速度（“slowest”或者1）  
+    p.goto(0,0)        #移动海龟到坐标原点(0,0)  
+    p.forward(200)     #向前移动100  
+    p.right(90)        #向右旋转90度  
+    p.forward(100)     #向前移动100  
+    p.right(90)        #向右旋转90度  
+    p.forward(200)     #向前移动100  
+    p.right(90)        #向右旋转90度  
+    p.forward(150)     #向前移动100  
+    p.right(90)#向右旋转90度  
+    p.forward(40)  
+    p.left(90)  
+    p.forward(40)  
+    p.right(90)  
+    p.forward(40)  
+    p.left(90)  
+    p.forward(60)  
+    p.right(90)  
+    p.forward(40)  
+    p.right(90)  
+    p.forward(60)  
+    p.left(90)  
+    p.forward(40)  
+    p.right(90)  
+    p.forward(40)  
+    p.left(90)  
+    p.forward(40)  
+    p.right(90)  
+    p.forward(50)  
          
  
 

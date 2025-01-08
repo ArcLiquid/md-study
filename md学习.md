@@ -69,8 +69,8 @@
 ## 代码语法
 
 1. 反引号`this is code` 
-2. 转移反引号，如果需要展示的代码已经包含反引号，使用``双反引号this is `code```
-3. 代码块
+2. 转移反引号，如果需要展示的代码已经包含反引号，使用``Use `code` in your Markdown file.``
+3. 代码块？？？
 
     /缩进四个空格/
     import turtle       #导入turtle模块  

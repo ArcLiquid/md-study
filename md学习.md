@@ -62,10 +62,11 @@
     需要缩进四个空格`![这里是图片描述](这里是图片的地址)`  
     ![这是爱尔奎特](https://img.nga.178.com/attachments/mon_202208/01/f0Q0-ftf5K23T3cSkz-kz.jpg)
 6. 插入代码
-        /需要缩进八个空格/  
+        /需要缩进八个空格且空行/
+     
         print("Ciaollo~~")  
         exit()
-7. 无
+8. 无
 
 ## 代码语法
 
@@ -76,6 +77,49 @@
     >缩进 4 个空格或是 1 个制表符；  
     >一个代码区块会一直持续到没有缩进的那一行（或是文件结尾）
 
+展示如下
+
+    import turtle       #导入turtle模块  
+    p = turtle.Turtle() #创建海龟对象  
+    p.color("red")      #设置绘制时画笔的颜色  
+    p.pensize(3)        #定义绘制时画笔的线条宽度  
+    turtle.speed(1)     #定义绘图的速度（“slowest”或者1）  
+    p.goto(0,0)         #移动海龟到坐标原点(0,0)  
+    p.forward(200)      #向前移动100  
+    p.right(90)         #向右旋转90度  
+    p.forward(100)      #向前移动100  
+    p.right(90)         #向右旋转90度  
+    p.forward(200)      #向前移动100  
+    p.right(90)         #向右旋转90度  
+    p.forward(150)      #向前移动100  
+    p.right(90)         #向右旋转90度  
+    p.forward(40)  
+    p.left(90)  
+    p.forward(40)  
+    p.right(90)  
+    p.forward(40)  
+    p.left(90)  
+    p.forward(60)  
+    p.right(90)  
+    p.forward(40)  
+    p.right(90)  
+    p.forward(60)  
+    p.left(90)  
+    p.forward(40)  
+    p.right(90)  
+    p.forward(40)  
+    p.left(90)  
+    p.forward(40)  
+    p.right(90)  
+    p.forward(50)
+
+## 分隔线语法
+
+在一行中使用`---`且不包含其他字符，为了兼容性，请在分隔线的前后均添加空白行
+
+---
+
+上面有分隔线
 
 
          

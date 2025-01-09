@@ -133,11 +133,23 @@
 2. 网页和邮箱地址：使用尖括号/也就是大于号小于号/`</这里输入ULR/>`,实际效果就是把链接变成可以点击的链接
 3. 带有不同格式的链接
     事实上也就是斜体、粗体、代码块三种 *[ArcLiquid的md学习记录](https://github.com/ArcLiquid/md-study/edit/main/.md)* ，**[ArcLiquid的md学习记录](https://github.com/ArcLiquid/md-study/edit/main/.md)** ，[`ArcLiquid的md学习记录`](https://github.com/ArcLiquid/md-study/edit/main/.md)/注意第三种格式反引号的位置/
-4. 引用类型链接
+4. 引用类型链接/参考式链接
     这种链接包含两部分：第一部分是在正文中被引用的部分，第二部分是脚注或者尾注  
-[这里是显示名] [x]
-[x]: <https://github.com/ArcLiquid/md-study/edit/main/.md>
+[这里是显示名] [1]
 
+[1]: <https://github.com/ArcLiquid/md-study/edit/main/.md>
+
+## 图片语法
+
+1. 插入一张图片 `![这里是对图片的说明](图片链接 "可选tittle")`
+2. 插入一张包含链接的图片 `[![ArcLiquid](https://github.com/ArcLiquid/md-study/blob/main/arcuid.jpg)](https://github.com/ArcLiquid/md-study/edit/main/.md)`
+
+## 转义字符语法
+
+\## 会使各种特殊效果无效化  
+\[ArcLiquid的md学习记录](https://github.com/ArcLiquid/md-study/edit/main/.md)
+
+## 内嵌HTML标签 
 
 
          
